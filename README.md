@@ -1,5 +1,6 @@
 # Fast Read ADS1015
- Highest sampling speed possible with ADS1015 reading 2 ADC pins (AIN0 and AIN1)
+ Highest sampling speed possible with ADS1015 reading 2 ADC pins (AIN0 and AIN1)  
+ +-1 ms with arduino leonardo
  
  Wiring
  https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmX8JB858gKqjFcibVSEB665PAdQHbbVuYgRLuwWnyZ9Rr
