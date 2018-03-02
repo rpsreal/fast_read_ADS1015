@@ -3,7 +3,7 @@
  +-1 ms with arduino leonardo
  
  Wiring
- https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmX8JB858gKqjFcibVSEB665PAdQHbbVuYgRLuwWnyZ9Rr
+ ![alt text](https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmX8JB858gKqjFcibVSEB665PAdQHbbVuYgRLuwWnyZ9Rr)
  
  History
  https://steemit.com/electronics/@rpsreal/ads1015-the-adc-with-i2c-interface
