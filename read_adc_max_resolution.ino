@@ -38,7 +38,7 @@ uint16_t readi2c(uint8_t address, uint8_t reg) {
 uint16_t readADC(uint16_t config) { // Função para a Leitura de um pino do ADC (recebe os registos de configuração)
   writei2c(i2caddress, config); // escrever registo no ADC - registo para pedido de leitura num pino do ADC
   delayMicroseconds(1);                    // tempo de espera para a comunicação seja terminada
-  while ((readi2c(i2caddress, 0x01) & 0x80) == 0);  // Espera que o config register OS bit mude para 1 (conversão concluida) 
+  while ((readi2c(i2caddress, 0x01) & 0x8000) == 0);  // Espera que o config register OS bit mude para 1 (conversão concluida) 
   return (readi2c(i2caddress, 0x00) >> 4);          // Retorna o valor lido do pino do ADC
 }
 
